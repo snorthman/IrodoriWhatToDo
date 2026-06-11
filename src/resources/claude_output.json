@@ -1,0 +1,532 @@
+[
+  {
+    "index": 0,
+    "skill_question": "When you see message stickers like \"good morning\" or \"thank you\", can you understand what they mean?",
+    "skill_example": "おはよう！\n今日もがんばろう！",
+    "skill_example_translated": "Good morning!\nLet's do our best again today!"
+  },
+  {
+    "index": 1,
+    "skill_question": "When you don't know how to say something in Japanese, can you ask how to say it and understand the answer?",
+    "skill_example": "すみません、これは日本語で何と言いますか？",
+    "skill_example_translated": "Excuse me, how do you say this in Japanese?"
+  },
+  {
+    "index": 2,
+    "skill_question": "Can you fill in your name, nationality, date of birth, and so on, on an application form?",
+    "skill_example": "氏名：グエン・バン・アン\n国籍：ベトナム\n生年月日：1995年3月12日",
+    "skill_example_translated": "Name: Nguyen Van Anh\nNationality: Vietnam\nDate of birth: March 12, 1995",
+    "sentence_pattern_translated": "noun + じゃないです",
+    "sentence_example_translated": "It's not Vietnam."
+  },
+  {
+    "index": 3,
+    "skill_question": "Can you read a friend's short social media post and, using the photo as a clue, understand what it's about?",
+    "skill_example": "海に来ました！\n友だちと泳いで、すごく楽しかった〜",
+    "skill_example_translated": "We're at the beach!\nI swam with my friends and it was so much fun~",
+    "sentence_pattern_translated": "noun1 + の + noun2",
+    "sentence_example_translated": "This is my mother. This is our pet, John."
+  },
+  {
+    "index": 4,
+    "skill_question": "Can you add a short caption to a photo of your meal and post it on social media?",
+    "skill_example": "今日の朝ご飯です。たまごとパンとサラダ。おいしかった！",
+    "skill_example_translated": "Here's my breakfast today. Eggs, bread, and salad. It was delicious!",
+    "sentence_pattern_translated": "あまり + verb + ません (frequency)",
+    "sentence_example_translated": "I don't really eat breakfast."
+  },
+  {
+    "index": 5,
+    "skill_question": "When you see a restaurant's sign, can you tell what kind of restaurant it is?",
+    "skill_example": "ラーメン\nチャーハン\nぎょうざ",
+    "skill_example_translated": "Ramen\nFried rice\nGyoza"
+  },
+  {
+    "index": 6,
+    "skill_question": "When you look at the labels for operating home appliances, like an air-conditioner remote, can you tell which button to press?",
+    "skill_example": "運転\n停止\n温度\n風量",
+    "skill_example_translated": "Start\nStop\nTemperature\nFan speed",
+    "sentence_pattern_translated": "na-adjective + じゃないです / i-adjective + くないです",
+    "sentence_example_translated": "The apartment isn't very quiet. The dormitory isn't spacious."
+  },
+  {
+    "index": 7,
+    "skill_question": "When you look at the sign at a room's entrance, can you tell what the room is for?",
+    "skill_example": "会議室\n受付\nお手洗い",
+    "skill_example_translated": "Meeting room\nReception\nRestroom",
+    "sentence_pattern_translated": "noun + の + (position word) + にあります",
+    "sentence_example_translated": "It's inside the drawer."
+  },
+  {
+    "index": 8,
+    "skill_question": "Can you ask each other about your availability in order to decide on a schedule?",
+    "skill_example": "次の集まりですが、私は土曜日がいいです。みなさんはどうですか？",
+    "skill_example_translated": "About our next get-together, Saturday works for me. How about everyone else?",
+    "sentence_pattern_translated": "(date/time) + がいいです",
+    "sentence_example_translated": "Saturday is good for me."
+  },
+  {
+    "index": 9,
+    "skill_question": "Can you look at a list of supplies and check whether everything you need is there?",
+    "skill_example": "ボールペン\n付箋\nホチキス\nコピー用紙",
+    "skill_example_translated": "Ballpoint pens\nSticky notes\nStapler\nCopy paper",
+    "sentence_pattern_translated": "noun + 、ありますか？",
+    "sentence_example_translated": "Do you have a phone charger?"
+  },
+  {
+    "index": 10,
+    "skill_question": "Can you read a simple social media profile and understand what that person likes?",
+    "skill_example": "はじめまして。マリアです。料理とK-POPが大好きです。週末は友だちとカラオケに行きます。",
+    "skill_example_translated": "Nice to meet you. I'm Maria. I love cooking and K-pop. On weekends I go to karaoke with my friends.",
+    "sentence_pattern_translated": "(person) + と / (place) + で + verb + ます",
+    "sentence_example_translated": "I play tennis with my husband in the park."
+  },
+  {
+    "index": 11,
+    "skill_question": "Can you read a simple invitation message from a friend and write a reply?",
+    "skill_example": "誘ってくれてありがとう！\n金曜日の夜、ぜひ行きたいです。何時に集まりますか？",
+    "skill_example_translated": "Thanks for inviting me!\nI'd love to come on Friday night. What time shall we meet?",
+    "sentence_pattern_translated": "verb + に行きます",
+    "sentence_example_translated": "Why don't we all go out for yakiniku together?"
+  },
+  {
+    "index": 12,
+    "skill_question": "When you see the signs commonly found in stations, can you understand what they mean?",
+    "skill_example": "改札口\n出口\nのりば\n切符売り場",
+    "skill_example_translated": "Ticket gate\nExit\nBoarding area\nTicket counter",
+    "sentence_pattern_translated": "(place) + から + (place) + まで",
+    "sentence_example_translated": "I take the train from here to Shin-Minato Station."
+  },
+  {
+    "index": 13,
+    "skill_question": "When you look at notices posted at shops and restaurants, can you understand things like their opening hours and closing days?",
+    "skill_example": "営業時間：11:00〜22:00\n定休日：毎週水曜日",
+    "skill_example_translated": "Hours: 11:00–22:00\nClosed: every Wednesday",
+    "sentence_pattern_translated": "na-adjective + な + noun + ですね / i-adjective + い + noun + ですね",
+    "sentence_example_translated": "It's a lively street, isn't it. It's a spacious park, isn't it."
+  },
+  {
+    "index": 14,
+    "skill_question": "Can you understand the meaning of signs commonly seen in department stores and shopping centers?",
+    "skill_example": "1F 食品\n2F 婦人服\n3F 子ども服\n4F レストラン",
+    "skill_example_translated": "1F Food\n2F Women's clothing\n3F Children's clothing\n4F Restaurants",
+    "sentence_pattern_translated": "na-adjective + ですね / i-adjective + いですね / na-adjective + ！ / i-adjective + い！",
+    "sentence_example_translated": "This coat is stylish, isn't it. This umbrella is interesting, isn't it. This coat is lovely! This bag is cute!"
+  },
+  {
+    "index": 15,
+    "skill_question": "When you see discount labels in a shop, can you tell the price of an item?",
+    "skill_example": "30%OFF\n1,500円 → 1,050円",
+    "skill_example_translated": "30% OFF\n1,500 yen → 1,050 yen",
+    "sentence_pattern_translated": "(quantity) + ずつ",
+    "sentence_example_translated": "I'll have two each of the chocolate cake and the cheesecake, please."
+  },
+  {
+    "index": 16,
+    "skill_question": "Can you send someone you went out with a short message afterward sharing your impressions?",
+    "skill_example": "今、家に着きました。今日は楽しかったです！\nまた行きましょうね。",
+    "skill_example_translated": "I just got home. Today was fun!\nLet's go again sometime.",
+    "sentence_pattern_translated": "noun + じゃなかったです / na-adjective + じゃなかったです / i-adjective + くなかったです",
+    "sentence_example_translated": "I went into a hot spring. But it wasn't an open-air bath. I climbed Mt. Fuji. It wasn't very hard. There weren't very many customers."
+  },
+  {
+    "index": 17,
+    "skill_question": "Can you talk briefly about what you did on a trip and your impressions of it?",
+    "skill_example": "先週、京都に行きました。お寺がとてもきれいでした。でも、人が多くて、少し疲れました。",
+    "skill_example_translated": "Last week I went to Kyoto. The temples were really beautiful. But there were a lot of people, so I got a little tired.",
+    "sentence_pattern_translated": "sentence 1。でも、sentence 2。",
+    "sentence_example_translated": "It was delicious. But it was a little expensive."
+  },
+  {
+    "index": 18,
+    "skill_question": "Can you talk briefly about the work you do in Japan?",
+    "skill_example": "私は今、レストランで働いています。ホールでお客さんを案内する仕事をしています。",
+    "skill_example_translated": "Right now I work at a restaurant. My job is to show customers to their seats in the dining area.",
+    "sentence_pattern_translated": "verb + ています ①",
+    "sentence_example_translated": "What do you do in Japan?"
+  },
+  {
+    "index": 19,
+    "skill_question": "Can you write a short staff introduction for posting at work, covering things like your hobbies and what you do on your days off?",
+    "skill_example": "グエンです。ベトナムから来ました。趣味は料理で、休みの日はよくサッカーをします。",
+    "skill_example_translated": "I'm Nguyen. I came from Vietnam. My hobby is cooking, and on my days off I often play soccer.",
+    "sentence_pattern_translated": "noun + ができます",
+    "sentence_example_translated": "I can speak Japanese, English, Filipino, and Spanish."
+  },
+  {
+    "index": 20,
+    "skill_question": "Can you talk briefly about your favorite season and why you like it?",
+    "skill_example": "私は秋が好きです。もみじの景色がきれいですから。それに、果物もおいしいです。",
+    "skill_example_translated": "I like autumn, because the maple-leaf scenery is beautiful. Also, the fruit is delicious.",
+    "sentence_pattern_translated": "noun1 + とか + (noun2 + とか)",
+    "sentence_example_translated": "Fruit is delicious in autumn, isn't it. Things like grapes and pears."
+  },
+  {
+    "index": 21,
+    "skill_question": "Can you read a short social media post about the weather and understand what it says?",
+    "skill_example": "台風が来てます。風がすごく強い！\nみなさん、気をつけてください。",
+    "skill_example_translated": "A typhoon is coming. The wind is really strong!\nEveryone, please take care."
+  },
+  {
+    "index": 22,
+    "skill_question": "Can you look at a town map and read off information about sights, shops, and so on?",
+    "skill_example": "中央公園：春は桜が楽しめます\n市立美術館：入場無料",
+    "skill_example_translated": "Central Park: enjoy the cherry blossoms in spring\nCity Art Museum: free admission",
+    "sentence_pattern_translated": "verb + ることができます",
+    "sentence_example_translated": "You can see all kinds of flowers throughout the year."
+  },
+  {
+    "index": 23,
+    "skill_question": "When someone gives you a ride, can you tell them how to get to your destination?",
+    "skill_example": "次の信号を右に曲がってください。この先に白くて大きな家があります。その前で止めてください。",
+    "skill_example_translated": "Please turn right at the next light. There's a big white house up ahead. Please stop in front of it.",
+    "sentence_pattern_translated": "noun1 + じゃなくて、 + noun2",
+    "sentence_example_translated": "Not the first one — the second one."
+  },
+  {
+    "index": 24,
+    "skill_question": "Can you write a message letting someone know you'll be late for a meetup?",
+    "skill_example": "ごめんなさい、電車が遅れていて、30分ぐらいおくれます。先に始めていてください。",
+    "skill_example_translated": "Sorry, the train is delayed, so I'll be about 30 minutes late. Please go ahead and start without me.",
+    "sentence_pattern_translated": "verb + て、… (cause/reason)",
+    "sentence_example_translated": "I overslept, and I've only just woken up."
+  },
+  {
+    "index": 25,
+    "skill_question": "Can you share with someone your impressions of an event you attended together?",
+    "skill_example": "昨日の動物園、楽しかったですね。パンダが本当にかわいかったです。また行きたいです。",
+    "skill_example_translated": "Yesterday's zoo trip was fun, wasn't it. The pandas were really cute. I'd love to go again.",
+    "sentence_pattern_translated": "verb + たいんですが…",
+    "sentence_example_translated": "I'd like to buy some jogging shoes..."
+  },
+  {
+    "index": 26,
+    "skill_question": "Can you read an online forum about studying Japanese and understand the recommended study methods?",
+    "skill_example": "私のおすすめは、毎日5分でいいので、日本のドラマを見ることです。耳が慣れて、聞き取りが上手になりますよ。",
+    "skill_example_translated": "My recommendation is to watch Japanese dramas — even just five minutes a day. Your ears get used to it and your listening improves.",
+    "sentence_pattern_translated": "verb + 方",
+    "sentence_example_translated": "I don't really understand how to fill out this form."
+  },
+  {
+    "index": 27,
+    "skill_question": "Before joining a Japanese class, can you answer a simple interview about your learning history and what you'd like to study?",
+    "skill_example": "日本語は、高校のとき少し勉強しました。今は、話す練習がしたいです。",
+    "skill_example_translated": "I studied a little Japanese in high school. Now I'd like to practice speaking.",
+    "sentence_pattern_translated": "na-adjective + なとき、…",
+    "sentence_example_translated": "When I have free time, I cook."
+  },
+  {
+    "index": 28,
+    "skill_question": "Can you look at a food label and check whether it contains anything you can't eat?",
+    "skill_example": "名称：クッキー\n原材料：小麦粉、砂糖、バター、卵、乳成分\nアレルギー：小麦・卵・乳",
+    "skill_example_translated": "Name: Cookies\nIngredients: flour, sugar, butter, eggs, milk\nAllergens: wheat, egg, milk",
+    "sentence_pattern_translated": "(question word) + でもいいです",
+    "sentence_example_translated": "A: What do you want to eat? B: Anything is fine."
+  },
+  {
+    "index": 29,
+    "skill_question": "Can you read the preparation instructions on instant food and understand the steps?",
+    "skill_example": "①ふたを半分開けて、かやくを入れます。\n②お湯を線まで入れて、3分待ちます。\n③お湯を捨てて、ソースをかけます。",
+    "skill_example_translated": "1. Open the lid halfway and add the seasoning packet.\n2. Pour in hot water up to the line and wait 3 minutes.\n3. Drain the water and add the sauce.",
+    "sentence_pattern_translated": "i-adjective + くないですか？",
+    "sentence_example_translated": "Isn't the flavor a bit weak?"
+  },
+  {
+    "index": 30,
+    "skill_question": "Can you read a simple work-related email and understand its content?",
+    "skill_example": "お疲れさまです。明日の会議は、9時から第2会議室で行います。資料は当日お配りします。",
+    "skill_example_translated": "Hello. Tomorrow's meeting will be held from 9:00 in Meeting Room 2. The materials will be handed out on the day.",
+    "sentence_pattern_translated": "はい、(negative sentence) / いいえ、(affirmative sentence)",
+    "sentence_example_translated": "A: Have you never used the copier? B: No, I haven't."
+  },
+  {
+    "index": 31,
+    "skill_question": "When you ask how to fill in a form such as a leave request, can you understand the spoken answer?",
+    "skill_example": "休暇届はこの用紙です。日付と理由を書いて、上の欄に名前を書いてください。書けたら、私に出してください。",
+    "skill_example_translated": "The leave-request form is this sheet. Write the date and reason, and put your name in the box at the top. When you're done, hand it to me.",
+    "sentence_pattern_translated": "… + んです ①",
+    "sentence_example_translated": "It's that a friend from my home country is coming from Tokyo."
+  },
+  {
+    "index": 32,
+    "skill_question": "Can you read the instructions on medicine and understand how and how much to take?",
+    "skill_example": "1日3回、食後に2錠ずつお飲みください。\n症状が続くときは、医師にご相談ください。",
+    "skill_example_translated": "Take 2 tablets three times a day, after meals.\nIf symptoms persist, please consult a doctor.",
+    "sentence_pattern_translated": "… + とき（に）、…",
+    "sentence_example_translated": "Take this medicine when the pain is too much to bear."
+  },
+  {
+    "index": 33,
+    "skill_question": "When you see a health poster at a hospital or similar place, can you understand things like the symptoms and how to prevent illness?",
+    "skill_example": "インフルエンザに気をつけましょう\n・手をよく洗う\n・マスクをする\n・部屋の空気を入れかえる",
+    "skill_example_translated": "Let's watch out for the flu\n- Wash your hands well\n- Wear a mask\n- Air out the room",
+    "sentence_pattern_translated": "verb + ないようにしています",
+    "sentence_example_translated": "For my health, I try not to overeat."
+  },
+  {
+    "index": 34,
+    "skill_question": "Can you write a short thank-you email to someone who has helped you, such as a person who invited you to their home?",
+    "skill_example": "昨日はお招きいただき、ありがとうございました。手料理がとてもおいしかったです。また、お話できるのを楽しみにしています。",
+    "skill_example_translated": "Thank you for having me yesterday. Your home cooking was delicious. I look forward to talking with you again.",
+    "sentence_pattern_translated": "(person) + が + (thing) + をくれます",
+    "sentence_example_translated": "This is a good-luck charm my older brother gave me."
+  },
+  {
+    "index": 35,
+    "skill_question": "Can you write a congratulatory or farewell message on a card or colored paper?",
+    "skill_example": "ご卒業おめでとうございます。これからの新しい生活が、すてきなものになりますように。",
+    "skill_example_translated": "Congratulations on your graduation. I hope your new life ahead is wonderful.",
+    "sentence_pattern_translated": "sentence (plain form) + と思います",
+    "sentence_example_translated": "I think something more memorable would be better."
+  },
+  {
+    "index": 36,
+    "skill_question": "Can you post a short self-introduction in an online community?",
+    "skill_example": "はじめまして！\nモンゴルから来たバトです。今、日本語を勉強しています。みなさんと友だちになれたらうれしいです。",
+    "skill_example_translated": "Nice to meet you!\nI'm Bat, and I came from Mongolia. I'm studying Japanese now. I'd be happy to become friends with everyone.",
+    "sentence_pattern_translated": "… + て、… / … + から、… / … + けど、… (joining two sentences into one)",
+    "sentence_example_translated": "There are lots of tea fields, and it's a relaxed place. Ulaanbaatar is the capital, so it's a big city. It isn't the capital, but it's very lively."
+  },
+  {
+    "index": 37,
+    "skill_question": "Can you read a simple interview article introducing someone and understand its content?",
+    "skill_example": "――今のお仕事は？\n「カフェで働いています。コーヒーをいれるのが得意で、お客さんと話すのも楽しいです。」",
+    "skill_example_translated": "— What's your job now?\n\"I work at a café. I'm good at making coffee, and I also enjoy chatting with customers.\"",
+    "sentence_pattern_translated": "sentence + し、…",
+    "sentence_example_translated": "Toshiro Mifune is a good actor, and he's really cool too."
+  },
+  {
+    "index": 38,
+    "skill_question": "Can you look at a restaurant coupon and pick out the information you need?",
+    "skill_example": "ランチ20%OFFクーポン\n平日11:00〜14:00\n他のクーポンとの併用はできません。",
+    "skill_example_translated": "Lunch 20% OFF coupon\nWeekdays 11:00–14:00\nCannot be combined with other coupons.",
+    "sentence_pattern_translated": "na-adjective + な / i-adjective + い / verb + る + のは、 + noun + です",
+    "sentence_example_translated": "The popular one is the sashimi set meal."
+  },
+  {
+    "index": 39,
+    "skill_question": "Can you read online reviews of a restaurant and pick out information like the taste and the prices?",
+    "skill_example": "★★★★☆ ラーメンがとてもおいしかったです。値段も安くて、量も多いです。お昼はとても混むので、早めに行くのがおすすめです。",
+    "skill_example_translated": "★★★★☆ The ramen was really delicious. It's cheap and the portions are big, too. It gets very crowded at lunch, so I recommend going early.",
+    "sentence_pattern_translated": "sentence 1 + が、 + sentence 2",
+    "sentence_example_translated": "The restaurant is new and clean, but it's crowded at lunchtime."
+  },
+  {
+    "index": 40,
+    "skill_question": "Can you read reviews on a travel site and understand the general content?",
+    "skill_example": "夏に行きましたが、とても暑かったです。朝早く着いたので、ホテルに荷物を預けて、すぐに観光できました。海がきれいで、また行きたいです。",
+    "skill_example_translated": "I went in summer and it was very hot. I arrived early in the morning, so I left my luggage at the hotel and went sightseeing right away. The sea was beautiful, and I'd like to go again.",
+    "sentence_pattern_translated": "verb + ないほうがいいです",
+    "sentence_example_translated": "If you can, it's better not to go on Sundays."
+  },
+  {
+    "index": 41,
+    "skill_question": "Can you post a short account of your travel experiences and impressions on social media?",
+    "skill_example": "友だちと2人でハウステンボスに行ってきました！\n花がいっぱいで、夜のイルミネーションもきれいでした。最高の一日でした。",
+    "skill_example_translated": "I went to Huis Ten Bosch with a friend, just the two of us!\nIt was full of flowers, and the evening illuminations were beautiful too. It was the best day.",
+    "sentence_pattern_translated": "(person) + と + (number of people) + で",
+    "sentence_example_translated": "I went to Huis Ten Bosch with a friend, the two of us."
+  },
+  {
+    "index": 42,
+    "skill_question": "When you're invited to a community event, can you ask questions about it and understand the answers?",
+    "skill_example": "盆踊りって、何ですか？\nだれでも参加できますか？\n動きやすい服で行ったほうがいいですか？",
+    "skill_example_translated": "What is bon-odori?\nCan anyone take part?\nShould I go in clothes that are easy to move in?",
+    "sentence_pattern_translated": "verb + (られ)ます (potential form ②)",
+    "sentence_example_translated": "Bon-odori is easy, so anyone can dance it."
+  },
+  {
+    "index": 43,
+    "skill_question": "Can you write a short post on social media about an event you took part in?",
+    "skill_example": "昨日の夏祭りに行きました。屋台がたくさんあって、楽しかったです！",
+    "skill_example_translated": "I went to the summer festival yesterday. There were lots of food stalls and it was fun!",
+    "sentence_pattern_translated": "question word + clause (plain form) + か, …",
+    "sentence_example_translated": "Do you know what time tomorrow's flea market starts?"
+  },
+  {
+    "index": 44,
+    "skill_question": "Can you write and send a New Year's greeting?",
+    "skill_example": "あけましておめでとうございます。今年もよろしくお願いします。みなさんにとって、いい一年になりますように。",
+    "skill_example_translated": "Happy New Year. I look forward to your continued friendship this year. I hope it's a good year for everyone.",
+    "sentence_pattern_translated": "noun + によって",
+    "sentence_example_translated": "The date of Lebaran differs from year to year."
+  },
+  {
+    "index": 45,
+    "skill_question": "Can you read online posts about differences in manners and customs and understand the general content?",
+    "skill_example": "日本では、電車の中で電話で話さないのがマナーです。最初はびっくりしましたが、今は慣れました。",
+    "skill_example_translated": "In Japan, it's good manners not to talk on the phone on the train. I was surprised at first, but now I'm used to it.",
+    "sentence_pattern_translated": "verb + なきゃ",
+    "sentence_example_translated": "I have to pay properly before I drink it."
+  },
+  {
+    "index": 46,
+    "skill_question": "Can you listen to an in-store announcement at a place like a shopping mall and understand the general content?",
+    "skill_example": "お客様にお呼び出しを申し上げます。ベトナムからお越しのグエン様、お連れ様が3階の案内所でお待ちです。",
+    "skill_example_translated": "We have a message for one of our customers. Mr. Nguyen, visiting from Vietnam — your party is waiting for you at the information desk on the third floor."
+  },
+  {
+    "index": 47,
+    "skill_question": "When buying electronics, can you ask the shop staff about a product and ask them to lower the price?",
+    "skill_example": "このドライヤー、もう少し安くなりませんか？\nほかの店では8,000円でした。",
+    "skill_example_translated": "Could you make this hairdryer a little cheaper?\nIt was 8,000 yen at another store."
+  },
+  {
+    "index": 48,
+    "skill_question": "When you see signs like \"No Photography\" inside a facility, can you understand them?",
+    "skill_example": "撮影禁止\n飲食禁止\n立入禁止",
+    "skill_example_translated": "No photography\nNo eating or drinking\nNo entry",
+    "sentence_pattern_translated": "(question word) + verb + ても、…",
+    "sentence_example_translated": "As for returns, you may return it to any library in the city."
+  },
+  {
+    "index": 49,
+    "skill_question": "At a place like an international exchange association, can you listen and understand what services are available for foreigners?",
+    "skill_example": "こちらでは、外国の方のために、無料の日本語教室や、生活の相談ができる窓口があります。どうぞお気軽にご利用ください。",
+    "skill_example_translated": "Here, for foreign residents, we have free Japanese classes and a desk where you can get advice about daily life. Please feel free to use them.",
+    "sentence_pattern_translated": "noun + のために、…",
+    "sentence_example_translated": "There are various services for foreign residents."
+  },
+  {
+    "index": 50,
+    "skill_question": "Can you ask how to dispose of garbage and understand the answer?",
+    "skill_example": "すみません、ペットボトルは、どうやって捨てればいいですか？\nラベルははがしますか？",
+    "skill_example_translated": "Excuse me, how should I throw away plastic bottles?\nDo I need to peel off the label?",
+    "sentence_pattern_translated": "verb + るのにいいです",
+    "sentence_example_translated": "A reusable straw is good for cutting down on waste."
+  },
+  {
+    "index": 51,
+    "skill_question": "Can you read a disaster-prevention pamphlet written in easy Japanese for foreigners and understand its content?",
+    "skill_example": "地震のときは、まず火を消してください。そして、机の下に入って、頭を守ってください。",
+    "skill_example_translated": "When there is an earthquake, first turn off any flames. Then get under a desk and protect your head.",
+    "sentence_pattern_translated": "verb (plain form) + かどうか, …",
+    "sentence_example_translated": "I'm not sure whether the shop is open or not..."
+  },
+  {
+    "index": 52,
+    "skill_question": "Can you write and send a short update on how you've been doing to someone like a teacher who taught you Japanese?",
+    "skill_example": "先生、お元気ですか。おかげさまで、仕事にも慣れて、日本語で電話もできるようになりました。本当にありがとうございました。",
+    "skill_example_translated": "Hello sensei, how are you? Thanks to you, I've gotten used to my job and can even make phone calls in Japanese now. Thank you so much.",
+    "sentence_pattern_translated": "verb + (られ)るようになりました",
+    "sentence_example_translated": "Lately I've become able to give other people information about the shop."
+  },
+  {
+    "index": 53,
+    "skill_question": "At an event like a farewell party, can you give a thank-you speech that includes a short anecdote?",
+    "skill_example": "みなさん、今までありがとうございました。入ったばかりのころ、山内さんが優しく仕事を教えてくれました。本当に感謝しています。",
+    "skill_example_translated": "Everyone, thank you for everything. When I had just joined, Mr. Yamauchi kindly taught me the work. I'm truly grateful.",
+    "sentence_pattern_translated": "verb + てくれます",
+    "sentence_example_translated": "Mr. Yamauchi taught me a lot of Japanese."
+  },
+  {
+    "index": 54,
+    "sentence_pattern_translated": "noun (は) + ありますか？",
+    "sentence_example_translated": "Do you have mayonnaise?"
+  },
+  {
+    "index": 55,
+    "sentence_pattern_translated": "noun / na-adjective / i-adjective + い / verb + る + でしょう",
+    "sentence_example_translated": "It will probably be sunny tomorrow."
+  },
+  {
+    "index": 56,
+    "sentence_pattern_translated": "verb + てしまいました",
+    "sentence_example_translated": "I've gone and forgotten my point card."
+  },
+  {
+    "index": 57,
+    "sentence_pattern_translated": "(noun1 + より) + noun2 + のほうが + …",
+    "sentence_example_translated": "The Toshima one is lighter and easier to move than the Mitsubashi, you know."
+  },
+  {
+    "index": 58,
+    "sentence_pattern_translated": "verb + てくれませんか？",
+    "sentence_example_translated": "If you'd like, won't you come and watch?"
+  },
+  {
+    "index": 59,
+    "sentence_pattern_translated": "connective expressions",
+    "sentence_example_translated": "On top of that, it's not just games — there are also stage plays, musicals, anime and so on, so there's lots to enjoy. Also, there's variety every time, so it's fun."
+  },
+  {
+    "index": 60,
+    "sentence_pattern_translated": "verb + てもらえたら、うれしいです",
+    "sentence_example_translated": "If you could do that for me, I'd be really happy."
+  },
+  {
+    "index": 61,
+    "sentence_pattern_translated": "verb + (ら)れる (passive ⑤: adversative passive)",
+    "sentence_example_translated": "After all, there are people who are bothered when noise is made late at night."
+  },
+  {
+    "index": 62,
+    "sentence_pattern_translated": "sentence (plain form) + やつ",
+    "sentence_example_translated": "The thing you get by rolling this up further and deep-frying it in oil is what's called 'dur-ten.'"
+  },
+  {
+    "index": 63,
+    "sentence_pattern_translated": "sentence (plain form) + じゃないですか",
+    "sentence_example_translated": "Eating out costs money — you know how it is, right?"
+  },
+  {
+    "index": 64,
+    "sentence_pattern_translated": "verb + ばいいなと思います",
+    "sentence_example_translated": "I hope I can take part and have fun together with everyone."
+  },
+  {
+    "index": 65,
+    "sentence_pattern_translated": "verb + なくてもだいじょうぶです",
+    "sentence_example_translated": "You don't have to wear expensive clothes — it's fine."
+  },
+  {
+    "index": 66,
+    "sentence_pattern_translated": "expressions for stating your hopes",
+    "sentence_example_translated": "In the future, I'm hoping I can use what I've studied to do work designing characters for anime and games. The work is hard, but I'm thinking of studying a lot and continuing in caregiving."
+  },
+  {
+    "index": 67,
+    "sentence_pattern_translated": "verb + てくる",
+    "sentence_example_translated": "I think I've gradually become able to say what I want to say in Japanese."
+  },
+  {
+    "index": 68,
+    "sentence_pattern_translated": "verb + ることがある",
+    "sentence_example_translated": "If you don't carry your residence card, you may have to pay a fine."
+  },
+  {
+    "index": 69,
+    "sentence_pattern_translated": "verb + ることにする",
+    "sentence_example_translated": "I've decided to buy an emergency backpack too, to prepare for disasters."
+  },
+  {
+    "index": 70,
+    "sentence_pattern_translated": "verb + (さ)せていただく",
+    "sentence_example_translated": "Today, on behalf of his friends, I will give a congratulatory speech."
+  },
+  {
+    "index": 71,
+    "sentence_pattern_translated": "noun + のことで",
+    "sentence_example_translated": "I'm troubled about a friend I share a room with."
+  },
+  {
+    "index": 72,
+    "sentence_pattern_translated": "もし + sentence + ば、…",
+    "sentence_example_translated": "If I had the time and money, the place I'd really like to visit is the Ogasawara Islands."
+  },
+  {
+    "index": 73,
+    "sentence_pattern_translated": "verb + さ（せら）れる (causative-passive)",
+    "sentence_example_translated": "We couldn't decide on a place for lunch, and I was made to walk a lot."
+  },
+  {
+    "index": 74,
+    "sentence_pattern_translated": "verb + ていただければありがたいと思います",
+    "sentence_example_translated": "I'd be very grateful if you could make it possible to do it by email or message and so on."
+  },
+  {
+    "index": 75,
+    "sentence_pattern_translated": "honorific and humble language",
+    "sentence_example_translated": "For example, the other day there was a customer who arrived by taxi on a rainy day. May I look into it a bit more on our end and contact you again?"
+  }
+]

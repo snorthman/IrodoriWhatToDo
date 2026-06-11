@@ -1,0 +1,112 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="icon" href="favicon.ico" sizes="any">
+<title>Irodori — What To Do</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<section id="quiz">
+  <h1>Irodori—What can you do?</h1>
+  <p class="intro">
+        <a href="https://www.irodori.jpf.go.jp/en/index.html" target="_blank" rel="noopener">Irodori</a>
+        is the Japan Foundation's free, wonderfully down-to-earth course for actually
+        living life in Japan. Great stuff, but if you've already got some Japanese
+        under your belt, trudging from lesson one is nobody's idea of a good time.
+  </p>
+  <p class="intro">
+        Have a skim through each <strong>skill</strong> (the book talks about "can-do's") and
+        <strong>sentence pattern</strong>: got it, a bit rusty, or totally new? At
+        the end you'll get a tidy little cheat-sheet of what to
+        <strong>skip</strong>, what to <strong>review</strong>, and what's worth
+        actually sitting down to <strong>study</strong>.
+  </p>
+  <p class="intro">
+        If at any point you feel like you don't really know any of the question, you can just stop and <button type="button" class="small js-see-results">See results &rarr;</button>!
+  </p>
+  <hr>
+  <p class="intro small">
+        All the information was compiled from the <a href="https://www.irodori.jpf.go.jp/en/resources.html" target="_blank" rel="noopener">resources</a> the creators of Irodori put together, only restructured to fit this questionairre.
+        AI was used to translate and provide descriptions and examples, by strictly following my <a href="https://github.com/snorthman/IrodoriWhatToDo/blob/main/SPEC.md" target="_blank" rel="noopener">specifications</a>.
+        Feel free to check out the <a href="https://github.com/snorthman/IrodoriWhatToDo" target="_blank" rel="noopener">code repository</a>.
+  </p>
+  <p class="intro small" id="clear-row" hidden>
+      <button type="button" class="small muted js-clear">Clear your answers</button>
+  </p>
+  <form id="answers">
+    {% for lesson in lessons %}
+        {% if lesson.skill %}
+        <div class="q q-skill" style="--accent: {{ lesson.book.color }}">
+          <div class="q-num"></div>
+          <div class="q-body">
+            <div class="q-head"><strong>Skill</strong> Can-do</div>
+            <div class="question">{{ lesson.skill.question }}</div>
+            <div class="example-label">Example:</div>
+            <div class="examples">
+              <div class="example-box">{{ lesson.skill.example }}</div>
+              <div class="example-box">{{ lesson.skill.example_translated }}</div>
+            </div>
+            <div class="opts">
+              <label><input type="radio" name="skill-{{ lesson.index }}" value="can-do">Can do</label>
+              <label><input type="radio" name="skill-{{ lesson.index }}" value="needs-revision">Needs practice</label>
+              <label><input type="radio" name="skill-{{ lesson.index }}" value="new">New to me</label>
+            </div>
+          </div>
+          <div class="q-side">
+{#            <span class="situation">{{ lesson.skill.situation.label }}</span>#}
+            <span class="q-type">{{ lesson.skill.type.value }}</span>
+          </div>
+        </div>
+        {% endif %}
+        {% if lesson.sentence %}
+        <div class="q q-sentence" style="--accent: {{ lesson.book.color }}">
+          <div class="q-num"></div>
+          <div class="q-body">
+            <div class="q-head"><strong>Sentence</strong> Pattern Can-do</div>
+            <div class="question">{{ lesson.sentence.pattern_translated }}</div>
+            <div class="example-label">Example:</div>
+            <div class="examples">
+              <div class="example-box">{{ lesson.sentence.example|safe }}</div>
+              <div class="example-box">{{ lesson.sentence.example_translated }}</div>
+            </div>
+            <div class="opts">
+              <label><input type="radio" name="sentence-{{ lesson.index }}" value="can-do">Can do</label>
+              <label><input type="radio" name="sentence-{{ lesson.index }}" value="needs-revision">Needs revision</label>
+              <label><input type="radio" name="sentence-{{ lesson.index }}" value="new">New to me</label>
+            </div>
+          </div>
+        </div>
+        {% endif %}
+    {% endfor %}
+  </form>
+  <div class="sticky-bar">
+    <div class="progress"><span id="progress-fill"></span></div>
+    <p id="progress-text" class="progress-text"></p>
+    <button type="button" class="js-see-results">See results &rarr;</button>
+  </div>
+</section>
+
+<section id="results" hidden>
+  <h1>Your Irodori study plan</h1>
+  <table>
+    <thead><tr><th>Book</th><th>Lesson</th><th>Skill</th><th>Sentence</th></tr></thead>
+    <tbody></tbody>
+  </table>
+  <div class="sticky-bar">
+    <button type="button" id="back">&larr; Back to Can-do's</button>
+    <button type="button" class="js-print">Print / Save as PDF</button>
+  </div>
+</section>
+
+<footer class="site-footer">
+  <p>Built by <span class="author">snorthman</span>.</p>
+  <p>Not affiliated with <em>Irodori: Japanese for Life in Japan</em> or its creators.</p>
+  <p>All rights to the original course materials belong to the Japan Foundation Japanese-Language Institute, Urawa.</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,1423 @@
+[
+  {
+    "index": 0,
+    "book": "入門",
+    "topic": "はじめての日本語",
+    "lesson": "第1課  おはようございます",
+    "skill_title": "メッセージスタンプ",
+    "skill_type": "【読】",
+    "skill_description": "<4> 「おはよう」や「ありがとう」などのメッセージスタンプを見て、意味を理解することができる。",
+    "skill_cefr": "A1",
+    "skill_activity": "やりとり（口頭）",
+    "skill_situation": "働く"
+  },
+  {
+    "index": 1,
+    "book": "入門",
+    "topic": "はじめての日本語",
+    "lesson": "第2課  すみません、よくわかりません",
+    "skill_title": "これは日本語で何と言いますか？",
+    "skill_type": "【話】",
+    "skill_description": "<7> 日本語の言い方がわからないとき、どう言えばいいか質問して、その答えを理解することができる。",
+    "skill_cefr": "A1",
+    "skill_activity": "やりとり（口頭）",
+    "skill_situation": "暮らす"
+  },
+  {
+    "index": 2,
+    "book": "入門",
+    "topic": "私のこと",
+    "lesson": "第3課  よろしくお願いします",
+    "skill_title": "申込書",
+    "skill_type": "【書】",
+    "skill_description": "<11> 申込書に、氏名、国籍、生年月日などを書き込むことができる。",
+    "skill_cefr": "A1",
+    "skill_activity": "やりとり（口頭）",
+    "skill_situation": "出かける",
+    "sentence_pattern": "Nじゃないです",
+    "sentence_example": "ベトナムじゃないです。",
+    "sentence_highlights": [
+      [
+        4,
+        10
+      ]
+    ]
+  },
+  {
+    "index": 3,
+    "book": "入門",
+    "topic": "私のこと",
+    "lesson": "第4課  東京に住んでいます",
+    "skill_title": "友だちと海！",
+    "skill_type": "【読】",
+    "skill_description": "<15> 友人のSNSの短い書き込みを読んで、写真を手がかりに、話題を理解することができる。",
+    "skill_cefr": "A1",
+    "skill_activity": "受容（読む）",
+    "skill_situation": "暮らす",
+    "sentence_pattern": "N1のN2",
+    "sentence_example": "私の母です。 ペットのジョンです。",
+    "sentence_highlights": [
+      [
+        1,
+        2
+      ],
+      [
+        10,
+        11
+      ]
+    ]
+  },
+  {
+    "index": 4,
+    "book": "入門",
+    "topic": "好きな食べ物",
+    "lesson": "第5課  うどんが好きです",
+    "skill_title": "今日の朝ご飯",
+    "skill_type": "【書】",
+    "skill_description": "<20> 食事の写真に簡単な説明をつけて、SNSに投稿することができる。",
+    "skill_cefr": "A1",
+    "skill_activity": "やりとり（口頭）",
+    "skill_situation": "暮らす",
+    "sentence_pattern": "あまりV-ません ＜頻度＞",
+    "sentence_example": "朝ご飯は、あまり食べません。",
+    "sentence_highlights": [
+      [
+        5,
+        13
+      ]
+    ]
+  },
+  {
+    "index": 5,
+    "book": "入門",
+    "topic": "好きな食べ物",
+    "lesson": "第6課  チーズバーガーください",
+    "skill_title": "飲食店の看板",
+    "skill_type": "【読】",
+    "skill_description": "<25> 飲食店の看板を見て、何の店かがわかる。",
+    "skill_cefr": "A1",
+    "skill_activity": "受容（読む）",
+    "skill_situation": "出かける"
+  },
+  {
+    "index": 6,
+    "book": "入門",
+    "topic": "家と職場",
+    "lesson": "第7課  部屋が4つあります",
+    "skill_title": "洗濯機・エアコンのボタン",
+    "skill_type": "【読】",
+    "skill_description": "<30> エアコンのリモコンなど、家電を操作するための表示を見て、どのボタンを押せばいいかがわかる。",
+    "skill_cefr": "A1",
+    "skill_activity": "受容（読む）",
+    "skill_situation": "暮らす",
+    "sentence_pattern": "ナA-じゃないです イA-くないです",
+    "sentence_example": "アパ-トは、あまり静かじゃないです。 寮は広くないです。",
+    "sentence_highlights": [
+      [
+        9,
+        17
+      ],
+      [
+        18,
+        19
+      ],
+      [
+        21,
+        27
+      ]
+    ]
+  },
+  {
+    "index": 7,
+    "book": "入門",
+    "topic": "家と職場",
+    "lesson": "第8課  山田さんはどこにいますか？",
+    "skill_title": "部屋の表示",
+    "skill_type": "【読】",
+    "skill_description": "<34> 部屋の入り口の表示を見て、何の部屋かがわかる。",
+    "skill_cefr": "A1",
+    "skill_activity": "受容（読む）",
+    "skill_situation": "出かける",
+    "sentence_pattern": "Nの【位置】にあります",
+    "sentence_example": "引き出しの中にあります。",
+    "sentence_highlights": [
+      [
+        4,
+        11
+      ]
+    ]
+  },
+  {
+    "index": 8,
+    "book": "入門",
+    "topic": "毎日の生活",
+    "lesson": "第9課  12時から1時まで昼休みです",
+    "skill_title": "私は日曜日がいいです",
+    "skill_type": "【話】",
+    "skill_description": "<38> 日程を決めるために、都合をたずね合うことができる。",
+    "skill_cefr": "A1",
+    "skill_activity": "やりとり（口頭）",
+    "skill_situation": "暮らす",
+    "sentence_pattern": "【日時】がいいです",
+    "sentence_example": "私は、土曜日がいいです。",
+    "sentence_highlights": []
+  },
+  {
+    "index": 9,
+    "book": "入門",
+    "topic": "毎日の生活",
+    "lesson": "第10課  ホチキス貸してください",
+    "skill_title": "チェックリスト",
+    "skill_type": "【読】",
+    "skill_description": "<43> 備品リストを見て、必要なものがそろっているかどうか確認することができる。",
+    "skill_cefr": "A1",
+    "skill_activity": "受容（読む）",
+    "skill_situation": "働く",
+    "sentence_pattern": "N、ありますか？",
+    "sentence_example": "スマホの充電器、ありますか？",
+    "sentence_highlights": [
+      [
+        8,
+        14
+      ]
+    ]
+  },
+  {
+    "index": 10,
+    "book": "入門",
+    "topic": "私の好きなこと",
+    "lesson": "第11課  どんなマンガが好きですか？",
+    "skill_title": "SNSのプロフィール",
+    "skill_type": "【読】",
+    "skill_description": "<47> SNSの簡単なプロフィールを読んで、その人の好きなことを理解することができる。",
+    "skill_cefr": "A1",
+    "skill_activity": "受容（読む）",
+    "skill_situation": "働く",
+    "sentence_pattern": "【人】と／【場所】でV-ます",
+    "sentence_example": "夫と公園でテニスをします。",
+    "sentence_highlights": [
+      [
+        1,
+        2
+      ],
+      [
+        4,
+        5
+      ],
+      [
+        9,
+        12
+      ]
+    ]
+  },
+  {
+    "index": 11,
+    "book": "入門",
+    "topic": "私の好きなこと",
+    "lesson": "第12課  いっしょに飲みに行きませんか？",
+    "skill_title": "誘いの返事",
+    "skill_type": "【書】",
+    "skill_description": "<51> 友人からの簡単な誘いのメッセージを読んで、返事を書くことができる。",
+    "skill_cefr": "A1",
+    "skill_activity": "やりとり（口頭）",
+    "skill_situation": "働く",
+    "sentence_pattern": "V-に行きます",
+    "sentence_example": "みんなで、いっしょに焼肉を食べに行きませんか？",
+    "sentence_highlights": [
+      [
+        13,
+        16
+      ]
+    ]
+  },
+  {
+    "index": 12,
+    "book": "入門",
+    "topic": "街を歩く",
+    "lesson": "第13課  このバスは空港に行きますか？",
+    "skill_title": "駅の中の表示",
+    "skill_type": "【読】",
+    "skill_description": "<56> 駅でよく見かける表示を見て、意味がわかる。",
+    "skill_cefr": "A1",
+    "skill_activity": "受容（読む）",
+    "skill_situation": "出かける",
+    "sentence_pattern": "【場所】から【場所】まで",
+    "sentence_example": "ここから新みなと駅まで、電車に乗ります。",
+    "sentence_highlights": []
+  },
+  {
+    "index": 13,
+    "book": "入門",
+    "topic": "街を歩く",
+    "lesson": "第14課  大きな建物ですね",
+    "skill_title": "街にある看板",
+    "skill_type": "【読】",
+    "skill_description": "<60> 店やレストランなどの掲示を見て、営業時間や休業日などを理解することができる。",
+    "skill_cefr": "A1",
+    "skill_activity": "受容（読む）",
+    "skill_situation": "出かける",
+    "sentence_pattern": "ナA-なNですね イA-いNですね",
+    "sentence_example": "にぎやかな通りですね。 広い公園ですね。",
+    "sentence_highlights": [
+      [
+        0,
+        5
+      ],
+      [
+        12,
+        14
+      ]
+    ]
+  },
+  {
+    "index": 14,
+    "book": "入門",
+    "topic": "店で",
+    "lesson": "第15課  電池がほしいんですが…",
+    "skill_title": "ショッピングセンターの表示",
+    "skill_type": "【読】",
+    "skill_description": "<65> デパートやショッピングセンターなどで、よく見かける表示の意味がわかる。",
+    "skill_cefr": "A1",
+    "skill_activity": "受容（読む）",
+    "skill_situation": "出かける",
+    "sentence_pattern": "ナA-ですね イA-いですね ナA！ イA-い!",
+    "sentence_example": "このコート、おしゃれですね。 この傘、おもしろいですね。 このコート、すてき！ このバッグ、かわいい！",
+    "sentence_highlights": [
+      [
+        6,
+        13
+      ],
+      [
+        19,
+        27
+      ],
+      [
+        35,
+        39
+      ],
+      [
+        46,
+        51
+      ]
+    ]
+  },
+  {
+    "index": 15,
+    "book": "入門",
+    "topic": "店で",
+    "lesson": "第16課  これ、いくらですか？",
+    "skill_title": "割引表示",
+    "skill_type": "【読】",
+    "skill_description": "<70> 店で割引表示を見て、商品の値段がわかる。",
+    "skill_cefr": "A1",
+    "skill_activity": "受容（読む）",
+    "skill_situation": "出かける",
+    "sentence_pattern": "【数量】ずつ",
+    "sentence_example": "チョコレートケーキとチーズケーキ、2個ずつお願いします。",
+    "sentence_highlights": [
+      [
+        17,
+        21
+      ]
+    ]
+  },
+  {
+    "index": 16,
+    "book": "入門",
+    "topic": "休みの日に",
+    "lesson": "第17課  映画を見に行きました",
+    "skill_title": "今、家に着きました",
+    "skill_type": "【書】",
+    "skill_description": "<75> いっしょに出かけた人に、あとから、感想を書いた簡単なメッセージを送ることができる。",
+    "skill_cefr": "A1",
+    "skill_activity": "やりとり（口頭）",
+    "skill_situation": "暮らす",
+    "sentence_pattern": "N-じゃなかったです ナA-じゃなかったです イA-くなかったです",
+    "sentence_example": "温泉に入りました。でも、露天風呂じゃなかったです。 富士山に登りました。あまり大変じゃなかったです。 お客さんは、あまり多くなかったです。",
+    "sentence_highlights": [
+      [
+        16,
+        24
+      ],
+      [
+        39,
+        49
+      ],
+      [
+        60,
+        68
+      ]
+    ]
+  },
+  {
+    "index": 17,
+    "book": "入門",
+    "topic": "休みの日に",
+    "lesson": "第18課  温泉に入りたいです",
+    "skill_title": "はじめて露天風呂に入りました",
+    "skill_type": "【話】",
+    "skill_description": "<79> 旅行先でしたことやその感想について、簡単に話すことができる。",
+    "skill_cefr": "A2",
+    "skill_activity": "産出（話す）",
+    "skill_situation": "暮らす",
+    "sentence_pattern": "S1。でも、S2。",
+    "sentence_example": "おいしかったです。でも、ちょっと高かったです。",
+    "sentence_highlights": [
+      [
+        9,
+        11
+      ]
+    ]
+  },
+  {
+    "index": 18,
+    "book": "初級1",
+    "topic": "今の私",
+    "lesson": "第1課  レストランで働いています",
+    "skill_title": "日本では何をしていますか？",
+    "skill_type": "【話】",
+    "skill_description": "<3> 日本でしている仕事について、簡単に話すことができる。",
+    "skill_cefr": "A2",
+    "skill_activity": "やりとり（口頭）",
+    "skill_situation": "暮らす",
+    "sentence_pattern": "V-ています ①",
+    "sentence_example": "日本では、何をしていますか？",
+    "sentence_highlights": [
+      [
+        7,
+        12
+      ]
+    ]
+  },
+  {
+    "index": 19,
+    "book": "初級1",
+    "topic": "今の私",
+    "lesson": "第2課  ゲームをするのが好きです",
+    "skill_title": "自己紹介",
+    "skill_type": "【書】",
+    "skill_description": "<7> 職場に掲示するスタッフ紹介用に、自分の趣味や休みの日にすることなどを簡単に書くことができる。",
+    "skill_cefr": "A2",
+    "skill_activity": "産出（書く）",
+    "skill_situation": "働く",
+    "sentence_pattern": "Nができます",
+    "sentence_example": "日本語、英語、フィリピノ語、スペイン語ができます。",
+    "sentence_highlights": [
+      [
+        19,
+        24
+      ]
+    ]
+  },
+  {
+    "index": 20,
+    "book": "初級1",
+    "topic": "季節と天気",
+    "lesson": "第3課  冬はとても寒くなります",
+    "skill_title": "もみじの景色がきれいですから",
+    "skill_type": "【話】",
+    "skill_description": "<10> 自分が好きな季節とその理由について、簡単に話すことができる。",
+    "skill_cefr": "A2",
+    "skill_activity": "やりとり（口頭）",
+    "skill_situation": "暮らす",
+    "sentence_pattern": "N1とか（N2とか）",
+    "sentence_example": "秋は果物がおいしいですよね。ぶどうとか梨とか。",
+    "sentence_highlights": [
+      [
+        17,
+        19
+      ],
+      [
+        20,
+        22
+      ]
+    ]
+  },
+  {
+    "index": 21,
+    "book": "初級1",
+    "topic": "季節と天気",
+    "lesson": "第4  昨日はすごい雨でしたね",
+    "skill_title": "台風が来てます",
+    "skill_type": "【読】",
+    "skill_description": "<13> 天気を話題にしたSNSの短い書き込みを読んで、内容を理解することができる。",
+    "skill_cefr": "A2",
+    "skill_activity": "受容（読む）",
+    "skill_situation": "暮らす"
+  },
+  {
+    "index": 22,
+    "book": "初級1",
+    "topic": "私の町",
+    "lesson": "第5課  とてもにぎやかで便利です",
+    "skill_title": "タウンマップ",
+    "skill_type": "【読】",
+    "skill_description": "<16> 町の案内図を見て、名所やお店などについての情報を読み取ることができる。",
+    "skill_cefr": "A1",
+    "skill_activity": "受容（読む）",
+    "skill_situation": "出かける",
+    "sentence_pattern": "V-ることができます",
+    "sentence_example": "一年中、いろいろな花を見ることができます。",
+    "sentence_highlights": [
+      [
+        11,
+        20
+      ]
+    ]
+  },
+  {
+    "index": 23,
+    "book": "初級1",
+    "topic": "私の町",
+    "lesson": "第6課  郵便局はどう行ったらいいですか？",
+    "skill_title": "この先に白くて大きな家があります",
+    "skill_type": "【話】",
+    "skill_description": "<19> 車に乗せてもらったときなどに、目的地までの行き方を伝えることができる。",
+    "skill_cefr": "A2",
+    "skill_activity": "やりとり（口頭）",
+    "skill_situation": "暮らす",
+    "sentence_pattern": "N1じゃなくて、N2",
+    "sentence_example": "1つ目じゃなくて、2つ目です。",
+    "sentence_highlights": [
+      [
+        3,
+        8
+      ]
+    ]
+  },
+  {
+    "index": 24,
+    "book": "初級1",
+    "topic": "いっしょに出かける",
+    "lesson": "第7課  道に迷ってちょっと遅れます",
+    "skill_title": "30分おくれます",
+    "skill_type": "【書】",
+    "skill_description": "<23> 待ち合わせに遅れることを伝えるメッセージを書くことができる。",
+    "skill_cefr": "A2",
+    "skill_activity": "やりとり（口頭）",
+    "skill_situation": "暮らす",
+    "sentence_pattern": "V-て、～　＜原因・理由＞",
+    "sentence_example": "ねぼうして、今、起きました。",
+    "sentence_highlights": []
+  },
+  {
+    "index": 25,
+    "book": "初級1",
+    "topic": "いっしょに出かける",
+    "lesson": "第8課  野球、したことありますか？",
+    "skill_title": "パンダがかわいかったです",
+    "skill_type": "【話】",
+    "skill_description": "<26> いっしょに参加したイベントの感想を、相手に伝えることができる。",
+    "skill_cefr": "A2",
+    "skill_activity": "やりとり（口頭）",
+    "skill_situation": "暮らす",
+    "sentence_pattern": "V-たいんですが…",
+    "sentence_example": "ジョギングシューズを買いたいんですが…。",
+    "sentence_highlights": [
+      [
+        10,
+        19
+      ]
+    ]
+  },
+  {
+    "index": 26,
+    "book": "初級1",
+    "topic": "日本語学習",
+    "lesson": "第9課  読み方を教えてもらえませんか？",
+    "skill_title": "いい練習のし方がありますか？",
+    "skill_type": "【読】",
+    "skill_description": "<30> 日本語学習についてのネットの掲示板を読んで、おすすめの学習方法が理解できる。",
+    "skill_cefr": "A2",
+    "skill_activity": "受容（読む）",
+    "skill_situation": "暮らす",
+    "sentence_pattern": "V-方",
+    "sentence_example": "この書類の書き方がよくわかりません。",
+    "sentence_highlights": [
+      [
+        5,
+        8
+      ]
+    ]
+  },
+  {
+    "index": 27,
+    "book": "初級1",
+    "topic": "日本語学習",
+    "lesson": "第10課  日本語教室に参加したいんですが･･･",
+    "skill_title": "高校のとき、少し勉強しました",
+    "skill_type": "【話】",
+    "skill_description": "<34> 日本語教室に参加する前に、学習歴や学習希望などについての簡単なインタビューに答えることができる。",
+    "skill_cefr": "A2",
+    "skill_activity": "やりとり（口頭）",
+    "skill_situation": "暮らす",
+    "sentence_pattern": "ナA-なとき、～",
+    "sentence_example": "暇なとき、料理を作ります。",
+    "sentence_highlights": [
+      [
+        0,
+        4
+      ]
+    ]
+  },
+  {
+    "index": 28,
+    "book": "初級1",
+    "topic": "おいしい料理",
+    "lesson": "第11課  肉と野菜は私が買って行きます",
+    "skill_title": "食品表示",
+    "skill_type": "【読】",
+    "skill_description": "<38> 食品表示を見て、食べられないものが入っていないかを確認することができる。",
+    "skill_cefr": "A2",
+    "skill_activity": "受容（読む）",
+    "skill_situation": "出かける",
+    "sentence_pattern": "【疑問詞】でもいいです",
+    "sentence_example": "A：何が食べたいですか。 B：何でもいいです。",
+    "sentence_highlights": [
+      [
+        15,
+        22
+      ]
+    ]
+  },
+  {
+    "index": 29,
+    "book": "初級1",
+    "topic": "おいしい料理",
+    "lesson": "第12課  お弁当、おいしそうですね",
+    "skill_title": "カップ焼きそばの作り方",
+    "skill_type": "【読】",
+    "skill_description": "<42> インスタント食品などの作り方の説明を読んで、手順を理解することができる。",
+    "skill_cefr": "A2",
+    "skill_activity": "受容（読む）",
+    "skill_situation": "暮らす",
+    "sentence_pattern": "イA-くないですか？",
+    "sentence_example": "味は、うすくないですか？",
+    "sentence_highlights": [
+      [
+        3,
+        12
+      ]
+    ]
+  },
+  {
+    "index": 30,
+    "book": "初級1",
+    "topic": "仕事の連絡",
+    "lesson": "第13課  あと10分ぐらいで終わりそうです",
+    "skill_title": "お知らせのメール",
+    "skill_type": "【読】",
+    "skill_description": "<47> 仕事上の簡単な連絡のメールを読んで、内容を理解することができる。",
+    "skill_cefr": "A2",
+    "skill_activity": "受容（読む）",
+    "skill_situation": "働く",
+    "sentence_pattern": "はい、【否定文】／いいえ、【肯定文】",
+    "sentence_example": "A：コピー機、使ったことないですか？ B：はい、ないです。",
+    "sentence_highlights": [
+      [
+        21,
+        28
+      ]
+    ]
+  },
+  {
+    "index": 31,
+    "book": "初級1",
+    "topic": "仕事の連絡",
+    "lesson": "第14課  休みを取ってもいいでしょうか？",
+    "skill_title": "休暇届を出してください",
+    "skill_type": "【聞】",
+    "skill_description": "<51> 休暇届などの書類の記入方法について質問して、その答えを理解することができる。",
+    "skill_cefr": "A2",
+    "skill_activity": "やりとり（口頭）",
+    "skill_situation": "働く",
+    "sentence_pattern": "～んです ①",
+    "sentence_example": "東京から、国の友だちが来るんです。",
+    "sentence_highlights": [
+      [
+        11,
+        16
+      ]
+    ]
+  },
+  {
+    "index": 32,
+    "book": "初級1",
+    "topic": "健康な生活",
+    "lesson": "第15課  熱があってのどが痛いんです",
+    "skill_title": "薬の説明",
+    "skill_type": "【読】",
+    "skill_description": "<56> 薬の説明を読んで、用法や用量を理解することができる。",
+    "skill_cefr": "A2",
+    "skill_activity": "受容（読む）",
+    "skill_situation": "出かける",
+    "sentence_pattern": "～とき（に）、～",
+    "sentence_example": "この薬は、痛くてがまんできないときに、飲んでください。",
+    "sentence_highlights": [
+      [
+        8,
+        18
+      ]
+    ]
+  },
+  {
+    "index": 33,
+    "book": "初級1",
+    "topic": "健康な生活",
+    "lesson": "第16課  食べすぎないようにしています",
+    "skill_title": "病気予防のポスター",
+    "skill_type": "【読】",
+    "skill_description": "<60> 病院などで病気に関するポスターを見て、症状や予防法などを理解することができる。",
+    "skill_cefr": "A2",
+    "skill_activity": "受容（読む）",
+    "skill_situation": "出かける",
+    "sentence_pattern": "V-ないように しています",
+    "sentence_example": "健康のために、食べすぎないようにしています。",
+    "sentence_highlights": [
+      [
+        7,
+        21
+      ]
+    ]
+  },
+  {
+    "index": 34,
+    "book": "初級1",
+    "topic": "交際",
+    "lesson": "第17課  兄がくれたお守りです",
+    "skill_title": "お礼のメール",
+    "skill_type": "【書】",
+    "skill_description": "<64> 家に招待してくれた人など、お世話になった人に、簡単なお礼のメールを書くことができる。",
+    "skill_cefr": "A2",
+    "skill_activity": "やりとり（文書）",
+    "skill_situation": "暮らす",
+    "sentence_pattern": "【人】が【物】をくれます",
+    "sentence_example": "これは、兄がくれたお守りです。",
+    "sentence_highlights": [
+      [
+        6,
+        9
+      ]
+    ]
+  },
+  {
+    "index": 35,
+    "book": "初級1",
+    "topic": "交際",
+    "lesson": "第18課  何かプレゼントをあげませんか？",
+    "skill_title": "お祝いのメッセージ",
+    "skill_type": "【書】",
+    "skill_description": "<69> カードや色紙に、お祝いや送別のメッセージを書くことができる。",
+    "skill_cefr": "A1",
+    "skill_activity": "やりとり（文書）",
+    "skill_situation": "暮らす",
+    "sentence_pattern": "S（普通形）と思います",
+    "sentence_example": "もっと、思い出に残るものがいいと思います。",
+    "sentence_highlights": [
+      [
+        15,
+        20
+      ]
+    ]
+  },
+  {
+    "index": 36,
+    "book": "初級2",
+    "topic": "私の周りの人たち",
+    "lesson": "第1課  先週、日本に来たばかりです",
+    "skill_title": "SNSの自己紹介",
+    "skill_type": "【書】",
+    "skill_description": "<4> SNS上のコミュニティに、簡単な自己紹介を書き込むことができる。",
+    "skill_cefr": "A2",
+    "skill_activity": "産出（書く）",
+    "skill_situation": "働く",
+    "sentence_pattern": "～て、～ ～から、～ ～けど、～ ＜2つの文を1つにする＞",
+    "sentence_example": "お茶の畑がたくさんあって、のんびりしています。 ウランバートルは首都だから、都会ですよ。 首都ではないけど、とてもにぎやかです。",
+    "sentence_highlights": [
+      [
+        9,
+        12
+      ],
+      [
+        35,
+        37
+      ],
+      [
+        51,
+        53
+      ]
+    ]
+  },
+  {
+    "index": 37,
+    "book": "初級2",
+    "topic": "私の周りの人たち",
+    "lesson": "第2課  まじめそうな人ですね",
+    "skill_title": "インタビュー記事",
+    "skill_type": "【読】",
+    "skill_description": "<8> 人を紹介する簡単なインタビュー記事を読んで、内容を理解することができる。",
+    "skill_cefr": "A2",
+    "skill_activity": "受容（読む）",
+    "skill_situation": "働く",
+    "sentence_pattern": "Sし、～",
+    "sentence_example": "三船敏郎は、演技が上手だし、本当にかっこいいです。",
+    "sentence_highlights": [
+      [
+        12,
+        13
+      ]
+    ]
+  },
+  {
+    "index": 38,
+    "book": "初級2",
+    "topic": "レストランで",
+    "lesson": "第3課  アレルギーがあるので、食べられないんです",
+    "skill_title": "レストランのクーポン",
+    "skill_type": "【読】",
+    "skill_description": "<13> 飲食店のクーポンを見て、必要な情報を読み取ることができる。",
+    "skill_cefr": "A2",
+    "skill_activity": "受容（読む）",
+    "skill_situation": "出かける",
+    "sentence_pattern": "ナA-な／イA-い／V-る のは、Nです",
+    "sentence_example": "人気があるのは、お刺身定食です。",
+    "sentence_highlights": [
+      [
+        5,
+        7
+      ],
+      [
+        13,
+        15
+      ]
+    ]
+  },
+  {
+    "index": 39,
+    "book": "初級2",
+    "topic": "レストランで",
+    "lesson": "第4課  しょうゆをつけないで食べてください",
+    "skill_title": "飲食店の口コミ",
+    "skill_type": "【読】",
+    "skill_description": "<18> 飲食店についてのネットの口コミを読んで、味や値段などの情報を読み取ることができる。",
+    "skill_cefr": "A2",
+    "skill_activity": "受容（読む）",
+    "skill_situation": "暮らす",
+    "sentence_pattern": "S1が、S2",
+    "sentence_example": "お店は新しくてきれいですが、お昼は混んでいます。",
+    "sentence_highlights": [
+      [
+        12,
+        13
+      ]
+    ]
+  },
+  {
+    "index": 40,
+    "book": "初級2",
+    "topic": "旅行に行こう",
+    "lesson": "第5課  早く予約したほうがいいですよ",
+    "skill_title": "旅行の口コミ",
+    "skill_type": "【読】",
+    "skill_description": "<22> 旅行サイトの口コミを読んで、だいたいの内容を理解することができる。",
+    "skill_cefr": "A2 ",
+    "skill_activity": "受容（読む）",
+    "skill_situation": "暮らす",
+    "sentence_pattern": "V-ないほうがいいです",
+    "sentence_example": "できれば、日曜日は行かないほうがいいですよ。",
+    "sentence_highlights": [
+      [
+        9,
+        20
+      ]
+    ]
+  },
+  {
+    "index": 41,
+    "book": "初級2",
+    "topic": "旅行に行こう",
+    "lesson": "第6課  いろいろなところに行けて、よかったです",
+    "skill_title": "旅行の感想",
+    "skill_type": "【書】",
+    "skill_description": "<27> SNSに、旅行の経験や感想を簡単に書き込むことができる。",
+    "skill_cefr": "A2",
+    "skill_activity": "やりとり（文書）",
+    "skill_situation": "暮らす",
+    "sentence_pattern": "【人】と【人数】で",
+    "sentence_example": "友だちと2人でハウステンボスに行って来ました。",
+    "sentence_highlights": [
+      [
+        3,
+        4
+      ],
+      [
+        6,
+        7
+      ]
+    ]
+  },
+  {
+    "index": 42,
+    "book": "初級2",
+    "topic": "地域のイベント",
+    "lesson": "第7課  雨が降ったら、ホールでやります",
+    "skill_title": "盆踊り？何ですか？",
+    "skill_type": "【話】",
+    "skill_description": "<31> 地域のイベントに誘われたときなどに、内容について質問したり、その答えを理解したりすることができる。",
+    "skill_cefr": "A2",
+    "skill_activity": "やりとり（口頭）",
+    "skill_situation": "暮らす",
+    "sentence_pattern": "V-（られ）ます　＜可能形②＞",
+    "sentence_example": "盆踊りは簡単だから、だれでも踊れますよ。",
+    "sentence_highlights": [
+      [
+        14,
+        18
+      ]
+    ]
+  },
+  {
+    "index": 43,
+    "book": "初級2",
+    "topic": "地域のイベント",
+    "lesson": "第8課  屋台はどこかわかりますか？",
+    "skill_title": "イベントの感想",
+    "skill_type": "【書】",
+    "skill_description": "<37> SNSに、自分が参加したイベントについて、簡単に書き込むことができる。",
+    "skill_cefr": "A2",
+    "skill_activity": "やりとり（文書）",
+    "skill_situation": "暮らす",
+    "sentence_pattern": "【疑問詞】＋S（普通形）か、～",
+    "sentence_example": "明日のフリーマーケットは、何時からか、わかりますか？",
+    "sentence_highlights": [
+      [
+        13,
+        18
+      ]
+    ]
+  },
+  {
+    "index": 44,
+    "book": "初級2",
+    "topic": "年中行事とマナー",
+    "lesson": "第9課  成人の日は、何をするんですか？",
+    "skill_title": "新年のメッセージ",
+    "skill_type": "【書】",
+    "skill_description": "<42> 新年のあいさつを書いて送ることができる。",
+    "skill_cefr": "A1",
+    "skill_activity": "受容（読む）",
+    "skill_situation": "暮らす",
+    "sentence_pattern": "Nによって",
+    "sentence_example": "レバランは、年によって違います。",
+    "sentence_highlights": [
+      [
+        7,
+        11
+      ]
+    ]
+  },
+  {
+    "index": 45,
+    "book": "初級2",
+    "topic": "年中行事とマナー",
+    "lesson": "第10課  どんな服を着て行けばいいですか？",
+    "skill_title": "日本の習慣についての記事",
+    "skill_type": "【読】",
+    "skill_description": "<46> マナーや習慣の違いに関するネットの書き込みを読んで、だいたいの内容を理解することができる。",
+    "skill_cefr": "A2",
+    "skill_activity": "産出（書く）",
+    "skill_situation": "暮らす",
+    "sentence_pattern": "V-なきゃ",
+    "sentence_example": "ちゃんとお金を払ってから飲まなきゃ。",
+    "sentence_highlights": [
+      [
+        12,
+        17
+      ]
+    ]
+  },
+  {
+    "index": 46,
+    "book": "初級2",
+    "topic": "上手な買い物",
+    "lesson": "第11課  .ポイントカードを忘れてしまいました",
+    "skill_title": "お客様のお呼び出しを申し上げます",
+    "skill_type": "【聞】",
+    "skill_description": "<50> ショッピングモールなどの店内放送を聞いて、だいたいの内容を理解することができる。",
+    "skill_cefr": "A2",
+    "skill_activity": "受容（聞く）",
+    "skill_situation": "出かける"
+  },
+  {
+    "index": 47,
+    "book": "初級2",
+    "topic": "上手な買い物",
+    "lesson": "第12課  この掃除機は軽くて動かしやすいですよ",
+    "skill_title": "これ、安くなりますか？",
+    "skill_type": "【話】",
+    "skill_description": "<54> 電気製品を買うとき、店の人に商品について質問したり、安くしてもらうよう頼んだりすることができる。",
+    "skill_cefr": "A2",
+    "skill_activity": "やりとり（口頭）",
+    "skill_situation": "出かける"
+  },
+  {
+    "index": 48,
+    "book": "初級2",
+    "topic": "さまざまなサービス",
+    "lesson": "第13課  いろいろな資料を展示してあります",
+    "skill_title": "禁止の表示",
+    "skill_type": "【読】",
+    "skill_description": "<59> 施設内にある「撮影禁止」などの表示を見て、理解することができる。",
+    "skill_cefr": "A1",
+    "skill_activity": "受容（読む）",
+    "skill_situation": "出かける",
+    "sentence_pattern": "【疑問詞】V-ても、～",
+    "sentence_example": "返却は、市内の図書館なら、どこに返してもいいです。",
+    "sentence_highlights": [
+      [
+        13,
+        20
+      ]
+    ]
+  },
+  {
+    "index": 49,
+    "book": "初級2",
+    "topic": "さまざまなサービス",
+    "lesson": "第14課  前髪は、もう少し短く切ってもらえますか？",
+    "skill_title": "外国の方のために、いろいろなサービスがあります",
+    "skill_type": "【聞】",
+    "skill_description": "<63> 国際交流協会などで、どんな外国人向けサービスがあるか、聞いて理解することができる。",
+    "skill_cefr": "A2",
+    "skill_activity": "やりとり（口頭）",
+    "skill_situation": "出かける",
+    "sentence_pattern": "Nのために、～",
+    "sentence_example": "外国の方のために、いろいろなサービスがあります。",
+    "sentence_highlights": [
+      [
+        4,
+        8
+      ]
+    ]
+  },
+  {
+    "index": 50,
+    "book": "初級2",
+    "topic": "自然と環境",
+    "lesson": "第15課  会議室の電気がついたままでした",
+    "skill_title": "どうやって捨てればいいですか？",
+    "skill_type": "【話】",
+    "skill_description": "<67> ごみの捨て方について質問して、その答えを理解することができる。",
+    "skill_cefr": "A1",
+    "skill_activity": "やりとり（口頭）",
+    "skill_situation": "暮らす",
+    "sentence_pattern": "V-るのにいいです",
+    "sentence_example": "マイストローは、ごみを減らすのにいいんですよ。",
+    "sentence_highlights": [
+      [
+        11,
+        21
+      ]
+    ]
+  },
+  {
+    "index": 51,
+    "book": "初級2",
+    "topic": "自然と環境",
+    "lesson": "第16課  地震が来ても、あわてて動かないでください",
+    "skill_title": "防災パンフレット",
+    "skill_type": "【読】",
+    "skill_description": "<72> 外国人向けのやさしい日本語で書かれた防災パンフレットを読んで、内容を理解することができる。",
+    "skill_cefr": "A2",
+    "skill_activity": "受容（読む）",
+    "skill_situation": "暮らす",
+    "sentence_pattern": "V（普通形）かどうか、～",
+    "sentence_example": "店が開いているかどうか、わからないけど…。",
+    "sentence_highlights": [
+      [
+        2,
+        11
+      ],
+      [
+        12,
+        17
+      ]
+    ]
+  },
+  {
+    "index": 52,
+    "book": "初級2",
+    "topic": "私の人生",
+    "lesson": "第17課  日本語が前より話せるようになりました",
+    "skill_title": "近況報告のメッセージ",
+    "skill_type": "【書】",
+    "skill_description": "<75> 日本語を教えてくれた先生などに、簡単な近況報告のメッセージを書いて送ることができる。",
+    "skill_cefr": "A2",
+    "skill_activity": "やりとり（文書）",
+    "skill_situation": "暮らす",
+    "sentence_pattern": "V-（られ）るように なりました",
+    "sentence_example": "最近は、ほかの人にお店の情報を教えられるようになりました。",
+    "sentence_highlights": [
+      [
+        15,
+        28
+      ]
+    ]
+  },
+  {
+    "index": 53,
+    "book": "初級2",
+    "topic": "私の人生",
+    "lesson": "第18課  将来、自分の会社を作ろうと思います",
+    "skill_title": "みなさんには、とても親切にしてもらいました",
+    "skill_type": "【話】",
+    "skill_description": "<78> 送別会などで、簡単なエピソードを入れながら、お礼のあいさつをすることができる。",
+    "skill_cefr": "A2",
+    "skill_activity": "やりとり（口頭）",
+    "skill_situation": "働く",
+    "sentence_pattern": "V-てくれます",
+    "sentence_example": "山内さんは、私にたくさん、日本語を教えてくれました。",
+    "sentence_highlights": [
+      [
+        17,
+        25
+      ]
+    ]
+  },
+  {
+    "index": 54,
+    "book": "入門",
+    "topic": "好きな食べ物",
+    "lesson": "第6課  チ-ズバ-ガ-ください",
+    "sentence_pattern": "N（は）ありますか？",
+    "sentence_example": "マヨネ-ズ、ありますか？",
+    "sentence_highlights": [
+      [
+        6,
+        12
+      ]
+    ]
+  },
+  {
+    "index": 55,
+    "book": "初級1",
+    "topic": "季節と天気",
+    "lesson": "第4課  昨日はすごい雨でしたね",
+    "sentence_pattern": "N／ナA-／イA-い／V-る　でしょう",
+    "sentence_example": "明日は晴れるでしょう。",
+    "sentence_highlights": [
+      [
+        3,
+        10
+      ]
+    ]
+  },
+  {
+    "index": 56,
+    "book": "初級2",
+    "topic": "上手な買い物",
+    "lesson": "第11課  ポイントカードを忘れてしまいました",
+    "sentence_pattern": "V-てしまいました",
+    "sentence_example": "ポイントカード、忘れてしまいました。",
+    "sentence_highlights": [
+      [
+        8,
+        17
+      ]
+    ]
+  },
+  {
+    "index": 57,
+    "book": "初級2",
+    "topic": "上手な買い物",
+    "lesson": "第12課  こっちの店のほうが安いですね",
+    "sentence_pattern": "（N1より）N2のほうが～",
+    "sentence_example": "トーシマの方がミツバシより軽くて、動かしやすいですよ。",
+    "sentence_highlights": [
+      [
+        4,
+        7
+      ],
+      [
+        11,
+        13
+      ]
+    ]
+  },
+  {
+    "index": 58,
+    "book": "初中級",
+    "topic": "好きなもの好きなこと",
+    "lesson": "第1課  フットサルって、何でしたっけ？",
+    "sentence_pattern": "V-てくれませんか？",
+    "sentence_example": "もしよかったら、見に来てくれませんか？",
+    "sentence_highlights": [
+      [
+        8,
+        19
+      ]
+    ]
+  },
+  {
+    "index": 59,
+    "book": "初中級",
+    "topic": "好きなもの好きなこと",
+    "lesson": "第2課  ドラマを見るのがいちばん好きです",
+    "sentence_pattern": "接続の表現",
+    "sentence_example": "それに、ゲームだけじゃなくて、舞台とかミュージカルとかアニメとかもあって、いろいろ楽しめるんです。 あと、毎回バラエティがあって、楽しいです。",
+    "sentence_highlights": [
+      [
+        0,
+        3
+      ],
+      [
+        50,
+        52
+      ]
+    ]
+  },
+  {
+    "index": 60,
+    "book": "初中級",
+    "topic": "どこに住む？",
+    "lesson": "第3課  引っ越しの準備はどうですか？",
+    "sentence_pattern": "V-てもらえたら、うれしいです",
+    "sentence_example": "そうしてもらえたら、すごくうれしいです。",
+    "sentence_highlights": [
+      [
+        0,
+        9
+      ],
+      [
+        13,
+        19
+      ]
+    ]
+  },
+  {
+    "index": 61,
+    "book": "初中級",
+    "topic": "どこに住む？",
+    "lesson": "第4課  エアコンが壊れたみたいなんですが…",
+    "sentence_pattern": "V-（ら）れる＜受身⑤：迷惑の受身＞",
+    "sentence_example": "遅い時間に音を出されると困る人もいますからね。",
+    "sentence_highlights": [
+      [
+        7,
+        11
+      ]
+    ]
+  },
+  {
+    "index": 62,
+    "book": "初中級",
+    "topic": "毎日の食事",
+    "lesson": "第5課  どんなお店がいいですか？",
+    "sentence_pattern": "S（普通形）やつ",
+    "sentence_example": "これをさらに丸めて、油で揚げたやつが、ドゥル天なんですよ。",
+    "sentence_highlights": [
+      [
+        10,
+        17
+      ]
+    ]
+  },
+  {
+    "index": 63,
+    "book": "初中級",
+    "topic": "毎日の食事",
+    "lesson": "第6課  毎日、自炊してます",
+    "sentence_pattern": "S（普通形）じゃないですか",
+    "sentence_example": "外食って、やっぱりお金がかかるじゃないですか。",
+    "sentence_highlights": [
+      [
+        9,
+        22
+      ]
+    ]
+  },
+  {
+    "index": 64,
+    "book": "初中級",
+    "topic": "出会う",
+    "lesson": "第7課  たくさんの人と友だちになれればと思っています",
+    "sentence_pattern": "V-ばいいなと思います",
+    "sentence_example": "みなさんといっしょに、楽しく活動できればいいなと思います。",
+    "sentence_highlights": [
+      [
+        14,
+        28
+      ]
+    ]
+  },
+  {
+    "index": 65,
+    "book": "初中級",
+    "topic": "出会う",
+    "lesson": "第8課  隣、いいですか？",
+    "sentence_pattern": "V-なくてもだいじょうぶです",
+    "sentence_example": "高価な服は着なくても大丈夫です。",
+    "sentence_highlights": [
+      [
+        5,
+        15
+      ]
+    ]
+  },
+  {
+    "index": 66,
+    "book": "初中級",
+    "topic": "私と日本語",
+    "lesson": "第9課　日本語の勉強を始めたきっかけって、何だったの？",
+    "sentence_pattern": "希望を言うときの表現",
+    "sentence_example": "将来は、勉強したことを活かして、アニメとかゲームとかのキャラクターをデザインする仕事ができればと思ってるんだ。 仕事は大変だけど、たくさん勉強して、介護の仕事を続けようと思ってます。",
+    "sentence_highlights": [
+      [
+        43,
+        52
+      ],
+      [
+        80,
+        90
+      ]
+    ]
+  },
+  {
+    "index": 67,
+    "book": "初中級",
+    "topic": "私と日本語",
+    "lesson": "第10課　どうやって日本語を勉強してる？",
+    "sentence_pattern": "V-てくる",
+    "sentence_example": "自分の言いたいことが日本語で言えるようになってきたと思う。",
+    "sentence_highlights": [
+      [
+        20,
+        25
+      ]
+    ]
+  },
+  {
+    "index": 68,
+    "book": "初中級",
+    "topic": "こんなときどうする？",
+    "lesson": "第11課  これは詐欺メールですよ",
+    "sentence_pattern": "V-ることがある",
+    "sentence_example": "在留カードを持っていないと、罰金を支払うことがあります。",
+    "sentence_highlights": [
+      [
+        17,
+        27
+      ]
+    ]
+  },
+  {
+    "index": 69,
+    "book": "初中級",
+    "topic": "こんなときどうする？",
+    "lesson": "第12課  救急車をお願いします",
+    "sentence_pattern": "V-ることにする",
+    "sentence_example": "私も、災害に備えて防災リュックを買うことにしました。",
+    "sentence_highlights": [
+      [
+        16,
+        25
+      ]
+    ]
+  },
+  {
+    "index": 70,
+    "book": "初中級",
+    "topic": "人とのつき合い",
+    "lesson": "第13課  ご結婚おめでとうございます",
+    "sentence_pattern": "V-（さ）せていただく",
+    "sentence_example": "本日は、友人を代表して、お祝いのスピーチをさせていただきます。",
+    "sentence_highlights": [
+      [
+        21,
+        30
+      ]
+    ]
+  },
+  {
+    "index": 71,
+    "book": "初中級",
+    "topic": "人とのつき合い",
+    "lesson": "第14課  友人のことで悩んでいます",
+    "sentence_pattern": "Nのことで",
+    "sentence_example": "ルームシェアをしている友人のことで悩んでいます。",
+    "sentence_highlights": [
+      [
+        11,
+        17
+      ]
+    ]
+  },
+  {
+    "index": 72,
+    "book": "初中級",
+    "topic": "旅行の楽しみ",
+    "lesson": "第15課  桜島を見てみたいんです",
+    "sentence_pattern": "もしSば、～",
+    "sentence_example": "もし時間とお金があれば、ぜひ行ってみたいのは、小笠原です。",
+    "sentence_highlights": [
+      [
+        0,
+        11
+      ]
+    ]
+  },
+  {
+    "index": 73,
+    "book": "初中級",
+    "topic": "旅行の楽しみ",
+    "lesson": "第16課  いい写真がたくさん撮れました",
+    "sentence_pattern": "V-さ（せら）れる＜使役受身＞",
+    "sentence_example": "お昼ご飯を食べる店もなかなか決まらなくて、たくさん歩かされた。",
+    "sentence_highlights": [
+      [
+        25,
+        30
+      ]
+    ]
+  },
+  {
+    "index": 74,
+    "book": "初中級",
+    "topic": "日本で働く",
+    "lesson": "第17課  ホールの仕事について説明します",
+    "sentence_pattern": "V-ていただければありがたいと思います",
+    "sentence_example": "メールとか、メッセージとかでできるようにしていただければ、とてもありがたいと思います。",
+    "sentence_highlights": [
+      [
+        20,
+        28
+      ],
+      [
+        32,
+        42
+      ]
+    ]
+  },
+  {
+    "index": 75,
+    "book": "初中級",
+    "topic": "日本で働く",
+    "lesson": "第18課  働かせていただければ、うれしいです",
+    "sentence_pattern": "尊敬語と謙譲語",
+    "sentence_example": "例えば、この間は、雨の日にタクシーでお着きになったお客様がいらっしゃったんです。 こちらでもう少し検討して、また改めてご連絡してもいいですか？",
+    "sentence_highlights": [
+      [
+        18,
+        25
+      ],
+      [
+        29,
+        36
+      ],
+      [
+        59,
+        64
+      ]
+    ]
+  }
+]

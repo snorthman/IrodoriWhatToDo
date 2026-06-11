@@ -1,0 +1,414 @@
+:root {
+  --ink: #2b2333;
+  --muted: #8c849a;
+  --line: #ece6f2;
+  --card: #ffffff;
+
+  /* verdict colors */
+  --skip: #14a06b;
+  --review: #e08a00;
+  --study: #e5484d;
+
+  /* playful accent palette (irodori = "coloring") */
+  --c1: #ff6b9d;
+  --c2: #ff9f45;
+  --c3: #ffd23f;
+  --c4: #3ec6a0;
+  --c5: #4cc9f0;
+  --c6: #b892ff;
+
+  --link: #8a5cf6;
+  --link-hover: #6d3fd1;
+}
+
+* { box-sizing: border-box; }
+
+body {
+  font-family: "Segoe UI", system-ui, sans-serif;
+  max-width: 920px;
+  margin: 0 auto;
+  padding: 2rem 1rem 4rem;
+  color: var(--ink);
+  line-height: 1.5;
+  background:
+    radial-gradient(circle at 0% 0%, #ffe9f1 0%, transparent 40%),
+    radial-gradient(circle at 100% 0%, #e7f6ff 0%, transparent 40%),
+    radial-gradient(circle at 50% 100%, #fff6e0 0%, transparent 45%),
+    #fbfaff;
+  background-attachment: fixed;
+}
+
+h1 {
+  margin-bottom: .25rem;
+  font-size: 2rem;
+  background: linear-gradient(90deg, var(--c1), var(--c2), var(--c4), var(--c5), var(--c6));
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+
+  & + p { color: var(--muted); margin-top: 0; }
+}
+
+a {
+  color: var(--link);
+  text-decoration: underline;
+  text-decoration-color: color-mix(in srgb, var(--link) 40%, transparent);
+  text-underline-offset: 2px;
+  transition: color .12s ease, text-decoration-color .12s ease;
+
+  &:hover { color: var(--link-hover); text-decoration-color: currentColor; }
+}
+
+.intro {
+  color: var(--ink);
+
+  & strong { font-weight: 700; }
+
+  &.small {
+    color: var(--muted);
+    font-size: small;
+  }
+}
+
+hr {
+  border: none;
+  border-top: 1px solid var(--muted);
+}
+
+.site-footer {
+  margin-top: 2.5rem;
+  padding-top: 1.25rem;
+  border-top: 1px solid var(--line);
+  color: var(--muted);
+  font-size: .8rem;
+  text-align: center;
+
+  & p { margin: .2rem 0; }
+  & em { font-style: italic; }
+
+  & span {
+    background: var(--line);
+    color: var(--ink);
+    padding: 0 0.25rem;
+  }
+}
+
+/* ── question cards ───────────────────────────────────────────── */
+#answers {
+  counter-reset: qnum;
+}   /* number every question across the form */
+
+.q {
+  --accent: var(--c1);
+  counter-increment: qnum;
+  position: relative;            /* anchor for the floating .q-side */
+  display: flex;
+  align-items: stretch;
+  gap: .9rem;
+  background: var(--card);
+  border: 1px solid var(--line);
+  border-left: 6px solid var(--accent);
+  border-radius: 14px;
+  padding: .9rem 1.1rem;
+  margin: .8rem 0;
+  box-shadow: 0 2px 0 rgba(43, 35, 51, .04);
+  transition: transform .12s ease, box-shadow .12s ease;
+
+  &:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 10px 24px rgba(43, 35, 51, .10);
+  }
+
+  /* number column on the left */
+  .q-num {
+    flex: 0 0 auto;
+    min-width: 1.6rem;
+    font-weight: 800;
+    font-size: 1.35rem;
+    color: var(--accent);
+    text-align: right;
+
+    &::before { content: counter(qnum) "."; }
+  }
+
+  /* the body to the right of the number */
+  .q-body { flex: 1 1 auto; min-width: 0; }
+
+  .q-head {
+    font-weight: 500;
+    font-size: .95rem;
+    letter-spacing: .04em;
+    text-transform: uppercase;
+    color: var(--ink);
+
+    & strong { font-weight: 800; }   /* "Skill" / "Sentence" stands out */
+  }
+
+  .question { font-size: 1.1rem; margin-top: .1rem; margin-right: 3rem; }   /* clear the floating badge */
+
+  .example-label {
+    margin-top: .6rem;
+    font-size: .75rem;
+    color: var(--muted);
+  }
+
+  /* two equal-size example boxes side by side */
+  .examples {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: .5rem;
+    margin-top: .25rem;
+  }
+
+  .example-box {
+    min-width: 0;
+    background: #faf8ff;
+    border: 1px solid var(--line);
+    border-radius: 10px;
+    padding: .5rem .7rem;
+    white-space: pre-line;        /* honor \n line breaks in the data */
+    overflow-wrap: break-word;
+
+    & i { color: var(--ink); font-style: normal; font-weight: 600; }
+  }
+
+  /* situation tag (top) + big greyed type badge, floating in the top-right */
+  .q-side {
+    position: absolute;
+    top: .9rem;
+    right: 1.1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: .4rem;
+    text-align: right;
+  }
+
+  .situation {
+    font-size: .72rem;
+    font-weight: 700;
+    letter-spacing: .02em;
+    color: #fff;
+    background: var(--accent);
+    border-radius: 999px;
+    padding: .05rem .6rem;
+  }
+
+  .q-type {
+    flex: 0 0 auto;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 2.6rem;
+    height: 2.6rem;
+    font-size: 1.4rem;
+    font-weight: 700;
+    line-height: 1;
+    color: #9c95a8;
+    background: #f6f4fa;
+    border: 2px solid #ddd6e6;
+    border-radius: 50%;
+  }
+
+  /* answer chips — each answer has its own color, deepening when selected */
+  .opts {
+    display: flex;
+    flex-wrap: wrap;
+    gap: .5rem;
+    margin-top: .7rem;
+
+    label {
+      padding: .3rem .9rem;
+      border: 1px solid transparent;
+      border-radius: 999px;
+      font-size: .92rem;
+      cursor: pointer;
+      transition: background .12s ease, color .12s ease, border-color .12s ease;
+    }
+
+    /* Can do — blue */
+    label:has(input[value="can-do"]) { background: #e0effd; color: #1366c4; border-color: #bcdcfb; }
+    label:has(input[value="can-do"]:checked) { background: #1a73e8; color: #fff; border-color: #1a73e8; font-weight: 700; }
+
+    /* Needs revision — yellow */
+    label:has(input[value="needs-revision"]) { background: #fff3cd; color: #8a6400; border-color: #ffe49b; }
+    label:has(input[value="needs-revision"]:checked) { background: #e6a700; color: #3d2e00; border-color: #e6a700; font-weight: 700; }
+
+    /* New to me — pink */
+    label:has(input[value="new"]) { background: #ffe1ee; color: #c12d77; border-color: #ffc2db; }
+    label:has(input[value="new"]:checked) { background: #e02e86; color: #fff; border-color: #e02e86; font-weight: 700; }
+
+    /* hide the native radio but keep it keyboard-focusable */
+    input { position: absolute; opacity: 0; pointer-events: none; }
+    label:has(input:focus-visible) { outline: 2px solid currentColor; outline-offset: 2px; }
+  }
+}
+
+@media (max-width: 560px) {
+  .q {
+    & { flex-direction: column; gap: .3rem; }
+
+    .q-num { text-align: left; }
+    .examples { grid-template-columns: 1fr; }
+    .q-type { font-size: 1.1rem; }
+
+    /* equal-width chips so selecting (bold) doesn't reflow onto a new line */
+    .opts label { text-align: center; padding: .35rem .4rem; }
+  }
+
+  .q-skill {
+    .example-box:first-child { margin-right: 2rem; }
+    .example-box:last-child { margin-left: 2rem; }
+  }
+
+}
+
+/* ── buttons ──────────────────────────────────────────────────── */
+button {
+  font: inherit;
+  font-weight: 700;
+  padding: .6rem 1.3rem;
+  border: none;
+  border-radius: 999px;
+  color: #fff;
+  background: linear-gradient(135deg, var(--c5), var(--c6));
+  box-shadow: 0 4px 12px rgba(76, 201, 240, .35);
+  cursor: pointer;
+  transition: transform .12s ease, box-shadow .12s ease, filter .12s ease;
+
+  &:hover { transform: translateY(-1px); filter: brightness(1.05); }
+  &:active { transform: translateY(1px); }
+
+  &.small {
+    padding: revert;
+    box-shadow: revert;
+  }
+
+  &.muted {
+    background: var(--muted);
+    color: white;
+  }
+}
+
+#back {
+  background: linear-gradient(135deg, var(--c2), var(--c1));
+  box-shadow: 0 4px 12px rgba(255, 107, 157, .3);
+}
+
+/* sticky bar that keeps the primary nav button in reach while scrolling */
+.sticky-bar {
+  position: sticky;
+  bottom: 0;
+  margin-top: 1rem;
+  padding: .9rem 0;
+  text-align: center;
+  background: linear-gradient(to top, #fbfaff 60%, transparent);
+}
+
+/* completion progress, shown above the "See results" button */
+.progress {
+  width: 100%;
+  max-width: 24rem;
+  height: .5rem;
+  margin: 0 auto;
+  background: var(--line);
+  border-radius: 999px;
+  overflow: hidden;
+
+  & > span {
+    display: block;
+    width: 0;
+    height: 100%;
+    background: linear-gradient(90deg, var(--c1), var(--c4), var(--c5));
+    transition: width .2s ease;
+  }
+}
+
+.progress-text {
+  margin: .35rem 0 .7rem;
+  font-size: .8rem;
+  color: var(--muted);
+}
+
+/* ── results table ────────────────────────────────────────────── */
+table {
+  width: 100%;
+  margin-top: 1rem;
+  border-collapse: separate;
+  border-spacing: 0;
+  border-radius: 14px;
+  overflow: hidden;
+  background: var(--card);
+  box-shadow: 0 2px 0 rgba(43, 35, 51, .04);
+
+  th, td {
+    padding: .55rem .75rem;
+    text-align: left;
+  }
+
+  /* one gradient flowing across the whole header row, not reset per cell */
+  thead { background: linear-gradient(90deg, var(--c6), var(--c5)); }
+
+  th {
+    color: #fff;
+    font-size: .82rem;
+    letter-spacing: .03em;
+    text-transform: uppercase;
+  }
+
+  tbody tr {
+    &:nth-child(even) { background: #faf8ff; }
+    &:hover { background: #fff4f8; }
+    &:last-child td { border-bottom: none; }
+  }
+
+  /* merged book column gets the colored left border (book.color, set inline) */
+  .book-cell {
+    vertical-align: top;
+    font-weight: 600;
+  }
+}
+
+/* verdict cells */
+.v-Skip   { color: var(--skip);   font-weight: 700; }
+.v-Review { color: var(--review); font-weight: 700; }
+.v-Study  { color: var(--study);  font-weight: 700; }
+.unknown  { color: var(--muted); }
+.muted    { color: var(--muted); }
+
+/* space the Back / Print buttons in the results bar */
+.sticky-bar button + button { margin-left: .5rem; }
+
+/* ── print: bare study-plan table — headers, tight cells, zebra, no borders ── */
+@media print {
+  @page { margin: 1.2cm; }
+
+  body { max-width: none; margin: 0; padding: 0; background: none; color: #000; }
+  #quiz, .sticky-bar, .site-footer { display: none !important; }
+  #results { display: block !important; }
+
+  h1 {
+    margin: 0 0 .6rem;
+    font-size: 1.4rem;
+    background: none;
+    -webkit-text-fill-color: #000;
+    color: #000;
+  }
+
+  /* print backgrounds (zebra + verdict colors) as-is */
+  table { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+
+  /* strip the table to nothing but content */
+  table, th, td { border: none; }
+  table { box-shadow: none; border-radius: 0; }
+  thead { display: table-header-group; background: none; }   /* repeat header per page */
+  tr { break-inside: avoid; }
+
+  th { color: #000; }
+  th, td { padding: .12rem .45rem; font-size: .78rem; }
+  .book-cell { border-left: none; }
+
+  /* zebra rows */
+  tbody tr:nth-child(even) { background: #eee; }
+  tbody tr:hover { background: transparent; }
+}
